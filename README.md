@@ -2,7 +2,7 @@
 CRUD de usuários
 
 ## Passos para executar o projeto
-1. Caso esteja no Windows conecte com o WSQL e depois entre em modo sudo
+1. Caso esteja no Windows conecte com o WSL e depois entre em modo sudo
 
 ```sudo su```
 
