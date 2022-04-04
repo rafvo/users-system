@@ -1,0 +1,917 @@
+.text {
+  &.--red {
+    color: $red;
+  
+    &.lighten-5{
+      color: $red_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $red_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $red_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $red_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $red_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $red_darken_1;
+    }
+  
+    &.darken-2{
+      color: $red_darken_2;
+    }
+  
+    &.darken-3{
+        color: $red_darken_3;
+    }
+    
+    &.darken-4{
+      color: $red_darken_4;
+    }
+  
+    &.accent-1{
+      color: $red_accent_1;
+    }
+  
+    &.accent-2{
+      color: $red_accent_2;
+    }
+  
+    &.accent-3{
+      color: $red_accent_3;
+    }
+  
+    &.accent-4{
+      color: $red_accent_4;
+    }
+  }
+  
+  &.--pink {
+    color: $pink;
+  
+    &.lighten-5{
+      color: $pink_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $pink_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $pink_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $pink_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $pink_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $pink_darken_1;
+    }
+  
+    &.darken-2{
+      color: $pink_darken_2;
+    }
+  
+    &.darken-3{
+        color: $pink_darken_3;
+    }
+    
+    &.darken-4{
+      color: $pink_darken_4;
+    }
+  
+    &.accent-1{
+      color: $pink_accent_1;
+    }
+  
+    &.accent-2{
+      color: $pink_accent_2;
+    }
+  
+    &.accent-3{
+      color: $pink_accent_3;
+    }
+  
+    &.accent-4{
+      color: $pink_accent_4;
+    }
+  }
+  
+  &.--purple {
+    color: $purple;
+  
+    &.lighten-5{
+      color: $purple_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $purple_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $purple_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $purple_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $purple_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $purple_darken_1;
+    }
+  
+    &.darken-2{
+      color: $purple_darken_2;
+    }
+  
+    &.darken-3{
+        color: $purple_darken_3;
+    }
+    
+    &.darken-4{
+      color: $purple_darken_4;
+    }
+  
+    &.accent-1{
+      color: $purple_accent_1;
+    }
+  
+    &.accent-2{
+      color: $purple_accent_2;
+    }
+  
+    &.accent-3{
+      color: $purple_accent_3;
+    }
+  
+    &.accent-4{
+      color: $purple_accent_4;
+    }
+  }
+  
+  &.--deep-purple {
+    color: $deep_purple;
+  
+    &.lighten-5{
+      color: $deep_purple_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $deep_purple_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $deep_purple_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $deep_purple_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $deep_purple_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $deep_purple_darken_1;
+    }
+  
+    &.darken-2{
+      color: $deep_purple_darken_2;
+    }
+  
+    &.darken-3{
+        color: $deep_purple_darken_3;
+    }
+    
+    &.darken-4{
+      color: $deep_purple_darken_4;
+    }
+  
+    &.accent-1{
+      color: $deep_purple_accent_1;
+    }
+  
+    &.accent-2{
+      color: $deep_purple_accent_2;
+    }
+  
+    &.accent-3{
+      color: $deep_purple_accent_3;
+    }
+  
+    &.accent-4{
+      color: $deep_purple_accent_4;
+    }
+  }
+  
+  &.--indigo {
+    color: $indigo;
+  
+    &.lighten-5{
+      color: $indigo_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $indigo_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $indigo_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $indigo_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $indigo_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $indigo_darken_1;
+    }
+  
+    &.darken-2{
+      color: $indigo_darken_2;
+    }
+  
+    &.darken-3{
+        color: $indigo_darken_3;
+    }
+    
+    &.darken-4{
+      color: $indigo_darken_4;
+    }
+  
+    &.accent-1{
+      color: $indigo_accent_1;
+    }
+  
+    &.accent-2{
+      color: $indigo_accent_2;
+    }
+  
+    &.accent-3{
+      color: $indigo_accent_3;
+    }
+  
+    &.accent-4{
+      color: $indigo_accent_4;
+    }
+  }
+  
+  &.--blue {
+    color: $blue;
+  
+    &.lighten-5{
+      color: $blue_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $blue_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $blue_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $blue_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $blue_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $blue_darken_1;
+    }
+  
+    &.darken-2{
+      color: $blue_darken_2;
+    }
+  
+    &.darken-3{
+        color: $blue_darken_3;
+    }
+    
+    &.darken-4{
+      color: $blue_darken_4;
+    }
+  
+    &.accent-1{
+      color: $blue_accent_1;
+    }
+  
+    &.accent-2{
+      color: $blue_accent_2;
+    }
+  
+    &.accent-3{
+      color: $blue_accent_3;
+    }
+  
+    &.accent-4{
+      color: $blue_accent_4;
+    }
+  }
+  
+  &.--cyan {
+    color: $cyan;
+  
+    &.lighten-5{
+      color: $cyan_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $cyan_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $cyan_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $cyan_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $cyan_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $cyan_darken_1;
+    }
+  
+    &.darken-2{
+      color: $cyan_darken_2;
+    }
+  
+    &.darken-3{
+        color: $cyan_darken_3;
+    }
+    
+    &.darken-4{
+      color: $cyan_darken_4;
+    }
+  
+    &.accent-1{
+      color: $cyan_accent_1;
+    }
+  
+    &.accent-2{
+      color: $cyan_accent_2;
+    }
+  
+    &.accent-3{
+      color: $cyan_accent_3;
+    }
+  
+    &.accent-4{
+      color: $cyan_accent_4;
+    }
+  }
+  
+  &.--teal {
+    color: $teal;
+  
+    &.lighten-5{
+      color: $teal_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $teal_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $teal_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $teal_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $teal_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $teal_darken_1;
+    }
+  
+    &.darken-2{
+      color: $teal_darken_2;
+    }
+  
+    &.darken-3{
+        color: $teal_darken_3;
+    }
+    
+    &.darken-4{
+      color: $teal_darken_4;
+    }
+  
+    &.accent-1{
+      color: $teal_accent_1;
+    }
+  
+    &.accent-2{
+      color: $teal_accent_2;
+    }
+  
+    &.accent-3{
+      color: $teal_accent_3;
+    }
+  
+    &.accent-4{
+      color: $teal_accent_4;
+    }
+  }
+  
+  &.--green {
+    color: $green;
+  
+    &.lighten-5{
+      color: $green_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $green_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $green_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $green_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $green_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $green_darken_1;
+    }
+  
+    &.darken-2{
+      color: $green_darken_2;
+    }
+  
+    &.darken-3{
+        color: $green_darken_3;
+    }
+    
+    &.darken-4{
+      color: $green_darken_4;
+    }
+  
+    &.accent-1{
+      color: $green_accent_1;
+    }
+  
+    &.accent-2{
+      color: $green_accent_2;
+    }
+  
+    &.accent-3{
+      color: $green_accent_3;
+    }
+  
+    &.accent-4{
+      color: $green_accent_4;
+    }
+  }
+  
+  &.--light-green {
+    color: $light_green;
+  
+    &.lighten-5{
+      color: $light_green_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $light_green_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $light_green_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $light_green_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $light_green_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $light_green_darken_1;
+    }
+  
+    &.darken-2{
+      color: $light_green_darken_2;
+    }
+  
+    &.darken-3{
+        color: $light_green_darken_3;
+    }
+    
+    &.darken-4{
+      color: $light_green_darken_4;
+    }
+  
+    &.accent-1{
+      color: $light_green_accent_1;
+    }
+  
+    &.accent-2{
+      color: $light_green_accent_2;
+    }
+  
+    &.accent-3{
+      color: $light_green_accent_3;
+    }
+  
+    &.accent-4{
+      color: $light_green_accent_4;
+    }
+  }
+  
+  &.--lime{
+    color: $lime;
+  
+    &.lighten-5{
+      color: $lime_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $lime_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $lime_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $lime_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $lime_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $lime_darken_1;
+    }
+  
+    &.darken-2{
+      color: $lime_darken_2;
+    }
+  
+    &.darken-3{
+        color: $lime_darken_3;
+    }
+    
+    &.darken-4{
+      color: $lime_darken_4;
+    }
+  
+    &.accent-1{
+      color: $lime_accent_1;
+    }
+  
+    &.accent-2{
+      color: $lime_accent_2;
+    }
+  
+    &.accent-3{
+      color: $lime_accent_3;
+    }
+  
+    &.accent-4{
+      color: $lime_accent_4;
+    }
+  }
+  
+  &.--yellow{
+    color: $yellow;
+  
+    &.lighten-5{
+      color: $yellow_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $yellow_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $yellow_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $yellow_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $yellow_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $yellow_darken_1;
+    }
+  
+    &.darken-2{
+      color: $yellow_darken_2;
+    }
+  
+    &.darken-3{
+        color: $yellow_darken_3;
+    }
+    
+    &.darken-4{
+      color: $yellow_darken_4;
+    }
+  
+    &.accent-1{
+      color: $yellow_accent_1;
+    }
+  
+    &.accent-2{
+      color: $yellow_accent_2;
+    }
+  
+    &.accent-3{
+      color: $yellow_accent_3;
+    }
+  
+    &.accent-4{
+      color: $yellow_accent_4;
+    }
+  }
+  
+  &.--amber{
+    color: $amber;
+  
+    &.lighten-5{
+      color: $amber_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $amber_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $amber_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $amber_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $amber_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $amber_darken_1;
+    }
+  
+    &.darken-2{
+      color: $amber_darken_2;
+    }
+  
+    &.darken-3{
+        color: $amber_darken_3;
+    }
+    
+    &.darken-4{
+      color: $amber_darken_4;
+    }
+  
+    &.accent-1{
+      color: $amber_accent_1;
+    }
+  
+    &.accent-2{
+      color: $amber_accent_2;
+    }
+  
+    &.accent-3{
+      color: $amber_accent_3;
+    }
+  
+    &.accent-4{
+      color: $amber_accent_4;
+    }
+  }
+  
+  &.--orange{
+    color: $orange;
+  
+    &.lighten-5{
+      color: $orange_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $orange_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $orange_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $orange_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $orange_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $orange_darken_1;
+    }
+  
+    &.darken-2{
+      color: $orange_darken_2;
+    }
+  
+    &.darken-3{
+        color: $orange_darken_3;
+    }
+    
+    &.darken-4{
+      color: $orange_darken_4;
+    }
+  
+    &.accent-1{
+      color: $orange_accent_1;
+    }
+  
+    &.accent-2{
+      color: $orange_accent_2;
+    }
+  
+    &.accent-3{
+      color: $orange_accent_3;
+    }
+  
+    &.accent-4{
+      color: $orange_accent_4;
+    }
+  }
+  
+  &.--brown{
+    color: $brown;
+  
+    &.lighten-5{
+      color: $brown_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $brown_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $brown_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $brown_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $brown_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $brown_darken_1;
+    }
+  
+    &.darken-2{
+      color: $brown_darken_2;
+    }
+  
+    &.darken-3{
+        color: $brown_darken_3;
+    }
+    
+    &.darken-4{
+      color: $brown_darken_4;
+    }
+  }
+  
+  &.--blue-grey{
+    color: $blue_grey;
+  
+    &.lighten-5{
+      color: $blue_grey_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $blue_grey_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $blue_grey_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $blue_grey_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $blue_grey_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $blue_grey_darken_1;
+    }
+  
+    &.darken-2{
+      color: $blue_grey_darken_2;
+    }
+  
+    &.darken-3{
+        color: $blue_grey_darken_3;
+    }
+    
+    &.darken-4{
+      color: $blue_grey_darken_4;
+    }
+  }
+  
+  &.--grey{
+    color: $grey;
+  
+    &.lighten-5{
+      color: $grey_lighten_5;
+    }
+  
+    &.lighten-4{
+      color: $grey_lighten_4;
+    }
+  
+    &.lighten-3{
+      color: $grey_lighten_3;
+    }
+  
+    &.lighten-2{
+      color: $grey_lighten_2;
+    }
+  
+    &.lighten-1{
+      color: $grey_lighten_1;
+    }
+  
+    &.darken-1{
+      color: $grey_darken_1;
+    }
+  
+    &.darken-2{
+      color: $grey_darken_2;
+    }
+  
+    &.darken-3{
+        color: $grey_darken_3;
+    }
+    
+    &.darken-4{
+      color: $grey_darken_4;
+    }
+  }
+  
+  &.--black{
+    color: $black;
+  }
+  
+  &.--white{
+    color: $white;
+  }
+  
+  &.--primary{
+    color: #000!important;
+  }
+}

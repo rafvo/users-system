@@ -1,0 +1,918 @@
+.bg{
+  &.--red {
+    background: $red;
+  
+    &.lighten-5{
+      background: $red_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $red_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $red_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $red_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $red_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $red_darken_1;
+    }
+  
+    &.darken-2{
+      background: $red_darken_2;
+    }
+  
+    &.darken-3{
+        background: $red_darken_3;
+    }
+    
+    &.darken-4{
+      background: $red_darken_4;
+    }
+  
+    &.accent-1{
+      background: $red_accent_1;
+    }
+  
+    &.accent-2{
+      background: $red_accent_2;
+    }
+  
+    &.accent-3{
+      background: $red_accent_3;
+    }
+  
+    &.accent-4{
+      background: $red_accent_4;
+    }
+  }
+  
+  .--pink {
+    background: $pink;
+  
+    &.lighten-5{
+      background: $pink_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $pink_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $pink_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $pink_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $pink_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $pink_darken_1;
+    }
+  
+    &.darken-2{
+      background: $pink_darken_2;
+    }
+  
+    &.darken-3{
+        background: $pink_darken_3;
+    }
+    
+    &.darken-4{
+      background: $pink_darken_4;
+    }
+  
+    &.accent-1{
+      background: $pink_accent_1;
+    }
+  
+    &.accent-2{
+      background: $pink_accent_2;
+    }
+  
+    &.accent-3{
+      background: $pink_accent_3;
+    }
+  
+    &.accent-4{
+      background: $pink_accent_4;
+    }
+  }
+  
+  .--purple {
+    background: $purple;
+  
+    &.lighten-5{
+      background: $purple_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $purple_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $purple_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $purple_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $purple_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $purple_darken_1;
+    }
+  
+    &.darken-2{
+      background: $purple_darken_2;
+    }
+  
+    &.darken-3{
+        background: $purple_darken_3;
+    }
+    
+    &.darken-4{
+      background: $purple_darken_4;
+    }
+  
+    &.accent-1{
+      background: $purple_accent_1;
+    }
+  
+    &.accent-2{
+      background: $purple_accent_2;
+    }
+  
+    &.accent-3{
+      background: $purple_accent_3;
+    }
+  
+    &.accent-4{
+      background: $purple_accent_4;
+    }
+  }
+  
+  .--deep-purple {
+    background: $deep_purple;
+  
+    &.lighten-5{
+      background: $deep_purple_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $deep_purple_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $deep_purple_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $deep_purple_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $deep_purple_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $deep_purple_darken_1;
+    }
+  
+    &.darken-2{
+      background: $deep_purple_darken_2;
+    }
+  
+    &.darken-3{
+        background: $deep_purple_darken_3;
+    }
+    
+    &.darken-4{
+      background: $deep_purple_darken_4;
+    }
+  
+    &.accent-1{
+      background: $deep_purple_accent_1;
+    }
+  
+    &.accent-2{
+      background: $deep_purple_accent_2;
+    }
+  
+    &.accent-3{
+      background: $deep_purple_accent_3;
+    }
+  
+    &.accent-4{
+      background: $deep_purple_accent_4;
+    }
+  }
+  
+  .--indigo {
+    background: $indigo;
+  
+    &.lighten-5{
+      background: $indigo_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $indigo_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $indigo_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $indigo_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $indigo_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $indigo_darken_1;
+    }
+  
+    &.darken-2{
+      background: $indigo_darken_2;
+    }
+  
+    &.darken-3{
+        background: $indigo_darken_3;
+    }
+    
+    &.darken-4{
+      background: $indigo_darken_4;
+    }
+  
+    &.accent-1{
+      background: $indigo_accent_1;
+    }
+  
+    &.accent-2{
+      background: $indigo_accent_2;
+    }
+  
+    &.accent-3{
+      background: $indigo_accent_3;
+    }
+  
+    &.accent-4{
+      background: $indigo_accent_4;
+    }
+  }
+  
+  .--blue {
+    background: $blue;
+  
+    &.lighten-5{
+      background: $blue_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $blue_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $blue_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $blue_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $blue_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $blue_darken_1;
+    }
+  
+    &.darken-2{
+      background: $blue_darken_2;
+    }
+  
+    &.darken-3{
+        background: $blue_darken_3;
+    }
+    
+    &.darken-4{
+      background: $blue_darken_4;
+    }
+  
+    &.accent-1{
+      background: $blue_accent_1;
+    }
+  
+    &.accent-2{
+      background: $blue_accent_2;
+    }
+  
+    &.accent-3{
+      background: $blue_accent_3;
+    }
+  
+    &.accent-4{
+      background: $blue_accent_4;
+    }
+  }
+  
+  .--cyan {
+    background: $cyan;
+  
+    &.lighten-5{
+      background: $cyan_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $cyan_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $cyan_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $cyan_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $cyan_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $cyan_darken_1;
+    }
+  
+    &.darken-2{
+      background: $cyan_darken_2;
+    }
+  
+    &.darken-3{
+        background: $cyan_darken_3;
+    }
+    
+    &.darken-4{
+      background: $cyan_darken_4;
+    }
+  
+    &.accent-1{
+      background: $cyan_accent_1;
+    }
+  
+    &.accent-2{
+      background: $cyan_accent_2;
+    }
+  
+    &.accent-3{
+      background: $cyan_accent_3;
+    }
+  
+    &.accent-4{
+      background: $cyan_accent_4;
+    }
+  }
+  
+  .--teal {
+    background: $teal;
+  
+    &.lighten-5{
+      background: $teal_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $teal_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $teal_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $teal_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $teal_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $teal_darken_1;
+    }
+  
+    &.darken-2{
+      background: $teal_darken_2;
+    }
+  
+    &.darken-3{
+        background: $teal_darken_3;
+    }
+    
+    &.darken-4{
+      background: $teal_darken_4;
+    }
+  
+    &.accent-1{
+      background: $teal_accent_1;
+    }
+  
+    &.accent-2{
+      background: $teal_accent_2;
+    }
+  
+    &.accent-3{
+      background: $teal_accent_3;
+    }
+  
+    &.accent-4{
+      background: $teal_accent_4;
+    }
+  }
+  
+  .--green {
+    background: $green;
+  
+    &.lighten-5{
+      background: $green_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $green_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $green_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $green_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $green_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $green_darken_1;
+    }
+  
+    &.darken-2{
+      background: $green_darken_2;
+    }
+  
+    &.darken-3{
+        background: $green_darken_3;
+    }
+    
+    &.darken-4{
+      background: $green_darken_4;
+    }
+  
+    &.accent-1{
+      background: $green_accent_1;
+    }
+  
+    &.accent-2{
+      background: $green_accent_2;
+    }
+  
+    &.accent-3{
+      background: $green_accent_3;
+    }
+  
+    &.accent-4{
+      background: $green_accent_4;
+    }
+  }
+  
+  .--light-green {
+    background: $light_green;
+  
+    &.lighten-5{
+      background: $light_green_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $light_green_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $light_green_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $light_green_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $light_green_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $light_green_darken_1;
+    }
+  
+    &.darken-2{
+      background: $light_green_darken_2;
+    }
+  
+    &.darken-3{
+        background: $light_green_darken_3;
+    }
+    
+    &.darken-4{
+      background: $light_green_darken_4;
+    }
+  
+    &.accent-1{
+      background: $light_green_accent_1;
+    }
+  
+    &.accent-2{
+      background: $light_green_accent_2;
+    }
+  
+    &.accent-3{
+      background: $light_green_accent_3;
+    }
+  
+    &.accent-4{
+      background: $light_green_accent_4;
+    }
+  }
+  
+  .--lime{
+    background: $lime;
+  
+    &.lighten-5{
+      background: $lime_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $lime_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $lime_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $lime_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $lime_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $lime_darken_1;
+    }
+  
+    &.darken-2{
+      background: $lime_darken_2;
+    }
+  
+    &.darken-3{
+        background: $lime_darken_3;
+    }
+    
+    &.darken-4{
+      background: $lime_darken_4;
+    }
+  
+    &.accent-1{
+      background: $lime_accent_1;
+    }
+  
+    &.accent-2{
+      background: $lime_accent_2;
+    }
+  
+    &.accent-3{
+      background: $lime_accent_3;
+    }
+  
+    &.accent-4{
+      background: $lime_accent_4;
+    }
+  }
+  
+  .--yellow{
+    background: $yellow;
+  
+    &.lighten-5{
+      background: $yellow_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $yellow_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $yellow_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $yellow_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $yellow_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $yellow_darken_1;
+    }
+  
+    &.darken-2{
+      background: $yellow_darken_2;
+    }
+  
+    &.darken-3{
+        background: $yellow_darken_3;
+    }
+    
+    &.darken-4{
+      background: $yellow_darken_4;
+    }
+  
+    &.accent-1{
+      background: $yellow_accent_1;
+    }
+  
+    &.accent-2{
+      background: $yellow_accent_2;
+    }
+  
+    &.accent-3{
+      background: $yellow_accent_3;
+    }
+  
+    &.accent-4{
+      background: $yellow_accent_4;
+    }
+  }
+  
+  .--amber{
+    background: $amber;
+  
+    &.lighten-5{
+      background: $amber_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $amber_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $amber_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $amber_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $amber_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $amber_darken_1;
+    }
+  
+    &.darken-2{
+      background: $amber_darken_2;
+    }
+  
+    &.darken-3{
+        background: $amber_darken_3;
+    }
+    
+    &.darken-4{
+      background: $amber_darken_4;
+    }
+  
+    &.accent-1{
+      background: $amber_accent_1;
+    }
+  
+    &.accent-2{
+      background: $amber_accent_2;
+    }
+  
+    &.accent-3{
+      background: $amber_accent_3;
+    }
+  
+    &.accent-4{
+      background: $amber_accent_4;
+    }
+  }
+  
+  .--orange{
+    background: $orange;
+  
+    &.lighten-5{
+      background: $orange_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $orange_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $orange_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $orange_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $orange_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $orange_darken_1;
+    }
+  
+    &.darken-2{
+      background: $orange_darken_2;
+    }
+  
+    &.darken-3{
+        background: $orange_darken_3;
+    }
+    
+    &.darken-4{
+      background: $orange_darken_4;
+    }
+  
+    &.accent-1{
+      background: $orange_accent_1;
+    }
+  
+    &.accent-2{
+      background: $orange_accent_2;
+    }
+  
+    &.accent-3{
+      background: $orange_accent_3;
+    }
+  
+    &.accent-4{
+      background: $orange_accent_4;
+    }
+  }
+  
+  .--brown{
+    background: $brown;
+  
+    &.lighten-5{
+      background: $brown_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $brown_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $brown_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $brown_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $brown_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $brown_darken_1;
+    }
+  
+    &.darken-2{
+      background: $brown_darken_2;
+    }
+  
+    &.darken-3{
+        background: $brown_darken_3;
+    }
+    
+    &.darken-4{
+      background: $brown_darken_4;
+    }
+  }
+  
+  .--blue-grey{
+    background: $blue_grey;
+  
+    &.lighten-5{
+      background: $blue_grey_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $blue_grey_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $blue_grey_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $blue_grey_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $blue_grey_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $blue_grey_darken_1;
+    }
+  
+    &.darken-2{
+      background: $blue_grey_darken_2;
+    }
+  
+    &.darken-3{
+        background: $blue_grey_darken_3;
+    }
+    
+    &.darken-4{
+      background: $blue_grey_darken_4;
+    }
+  }
+  
+  .--grey{
+    background: $grey;
+  
+    &.lighten-5{
+      background: $grey_lighten_5;
+    }
+  
+    &.lighten-4{
+      background: $grey_lighten_4;
+    }
+  
+    &.lighten-3{
+      background: $grey_lighten_3;
+    }
+  
+    &.lighten-2{
+      background: $grey_lighten_2;
+    }
+  
+    &.lighten-1{
+      background: $grey_lighten_1;
+    }
+  
+    &.darken-1{
+      background: $grey_darken_1;
+    }
+  
+    &.darken-2{
+      background: $grey_darken_2;
+    }
+  
+    &.darken-3{
+        background: $grey_darken_3;
+    }
+    
+    &.darken-4{
+      background: $grey_darken_4;
+    }
+  
+    &.background{
+      background: $grey_background;
+    }
+  }
+  
+  .--black{
+    background: $black;
+  }
+  
+  .--white{
+    background: $white;
+  }
+  
+}
