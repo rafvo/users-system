@@ -1,45 +1,45 @@
 # users_system
-CRUD de usuários
+User CRUD
 
-## Passos para executar o projeto
-1. Caso esteja no Windows conecte com o WSL e depois entre em modo sudo
+## Steps to execute the project
+1. If you are on Windows, connect to WSL and then enter sudo mode
 
 ```sudo su```
 
-2. Inicie o servico do docker
+2. Start the docker service
 
 ```service docker start```
 
-3. Acessar a pasta do docker do projeto
+3. Access the project's docker folder
 
 ```cd docker```
 
-4. Verificar se seu docker está executando
+4. Check if your docker is running
 
 ```docker info```
 
-5. Executar o docker-compose que criará os containers
+5. Run docker-compose which will create the containers
 
 ```docker-compose up```
 
-6. Criar o banco de dados com o nome "bduser" utilizando alguma ferramenta de interface gráfica (MySQL Workbench)
+6. Create the database with the name "bduser" using a graphical interface tool (MySQL Workbench)
 
-7. Acessar o container de PHP do docker
+7. Access the docker PHP container
 
-```docker exec -it php_laravel /bin/sh```
+```docker-compose exec app bash```
 
-8. Executar migrations (não existem seeders)
+8. Run migrations
 
 ```php artisan migrate```
 
-Observação: Se utilizando Windows com o WSL, todos os comandos do docker devem ser executados com sudo depois de conectar no WSL.
+Note: If using Windows with WSL, all docker commands must be run with sudo after connecting to WSL.
 
-## Comandos úteis em caso de erro
+## Useful commands in case of error
 
-1. Executar dentro da pasta docker em sudo. Este comando interrompe contêineres e remove contêineres, redes, volumes e imagens criados pelo up
+1. Run inside the docker folder under sudo. This command stops containers and removes containers, networks, volumes, and images created by up
 
 ```docker-compose down```
 
-2. Parar todos os contêineres
+2. Stop all containers
 
 ```docker stop $(docker ps -q)```
